@@ -24,7 +24,7 @@
 - Copilot の提案が不適切な場合は、手動で修正してください。
 - 継続的にフィードバックを提供し、Copilot の提案精度を向上させましょう。
 
-<!-- 以下はCopilotに提案した項目例です。
+**以下はCopilotに提案した項目例です。**
 
 以下の項目を追加することで、さらに便利な `copilot-instructions.md` ファイルを作成できます。
 
@@ -109,5 +109,3 @@ function fetchData(url, callback) {
 ```
 
 これらの追加項目を参考にして、`copilot-instructions.md` ファイルをさらに充実させてください。
-
- -->
