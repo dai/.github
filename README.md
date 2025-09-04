@@ -14,7 +14,8 @@
 ├── .vscode/          # Visual Studio Code設定ディレクトリ  
 ├── LICENSE           # ライセンスファイル
 ├── README.md         # プロジェクト説明（このファイル）
-└── copilot-instructions.md  # Copilot指示ファイル
+├── copilot-instructions.md  # Copilot指示ファイル
+└── WARP.md           # Warp AI設定ファイル
 ```
 
 ### 📋 各ファイルの詳細説明
@@ -46,6 +47,15 @@
 - **ライセンス**: CC0 1.0 Universal (パブリックドメイン)
 - **意味**: このリポジトリの内容は著作権が放棄されており、自由に使用可能
 - **利点**: 組織や個人が自由にコピー・改変・再配布が可能
+
+#### `WARP.md`
+- **目的**: Warp AIの動作設定とガイドライン
+- **内容**: 
+  - リポジトリの構造とアーキテクチャの説明
+  - コーディング規約とスタイルガイド
+  - AI開発支援設定（Perplexity API、GitHub Copilot）
+  - セキュリティガイドライン
+- **使用例**: Warp AIによるコード生成、開発支援時の参照
 
 #### `README.md`
 - **目的**: プロジェクトの概要説明とドキュメント
