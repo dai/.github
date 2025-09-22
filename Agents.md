@@ -3,7 +3,7 @@
 ## インタラクション
 
 - キーボード
-  - 必須: [WAI-ARIA APG](https://wwww3org/WAI/ARIA/apg/patterns/) に準拠した完全なキーボードサポート
+  - 必須: [WAI-ARIA APG](https://www.w3.org/WAI/ARIA/apg/patterns/) に準拠した完全なキーボードサポート
   - 必須: 視覚的なフォーカスリング (`:focus-visible`; `:focus-within` とグループ化)
   - 必須: APG パターンに従ったフォーカス管理（トラップ、移動、戻り）
 - ターゲットと入力
