@@ -112,3 +112,7 @@
 - 必須: `:hover/:active/:focus` でコントラストを増加
 - 推奨: ブラウザUIを背景に一致させる
 - 推奨: グラデーションのバンディングを避ける（必要に応じてマスクを使用）
+
+// Original Version at https://vercel.com
+
+
