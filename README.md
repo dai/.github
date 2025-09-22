@@ -10,8 +10,9 @@
 
 ```
 .github/
-├── .github/           # GitHub設定ディレクトリ
-├── .vscode/          # Visual Studio Code設定ディレクトリ  
+├── .github/          # GitHub設定ディレクトリ
+├── .vscode/          # Visual Studio Code設定ディレクトリ
+├── AGENTS.md         # Web UI guidelines (AGENTS指示ファイル）
 ├── LICENSE           # ライセンスファイル
 ├── README.md         # プロジェクト説明（このファイル）
 ├── copilot-instructions.md  # Copilot指示ファイル
@@ -89,3 +90,5 @@
 - [Custom instructions for GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/copilot-customization)
 - [GitHub 組織レベル設定について](https://docs.github.com/ja/organizations)
 - [Model Context Protocol (MCP)](https://github.com/ppl-ai/modelcontextprotocol/)
+- [AGENTS.md](https://agents.md)
+- [Vercel/Web UI Guidelines](https://vercel.com/design/guidelines)
