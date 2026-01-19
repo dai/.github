@@ -58,3 +58,36 @@ if ( Test-Path $logdir ) {
 # For zoxide v0.8.0+
 # Invoke-Expression (& { (zoxide init powershell | Out-String) })
 
+# JJ Completion
+Invoke-Expression (& { (jj util completion power-shell | Out-String) })
+
+# Codex auto-resume (latest session)
+function Get-LatestCodexSessionId {
+    $sessionsRoot = Join-Path $env:USERPROFILE ".codex\sessions"
+    if (-not (Test-Path $sessionsRoot)) {
+        return $null
+    }
+
+    $latest = Get-ChildItem -Path $sessionsRoot -Recurse -Filter "*.jsonl" |
+        Sort-Object LastWriteTime -Descending |
+        Select-Object -First 1
+    if (-not $latest) {
+        return $null
+    }
+
+    if ($latest.Name -match '([0-9a-fA-F-]{36})\.jsonl$') {
+        return $Matches[1]
+    }
+
+    return $null
+}
+
+if (-not $env:CODEX_AUTO_RESUME -or $env:CODEX_AUTO_RESUME -ne "0") {
+    if (Get-Command codex -ErrorAction SilentlyContinue) {
+        $latestSessionId = Get-LatestCodexSessionId
+        if ($latestSessionId) {
+            codex resume $latestSessionId
+        }
+    }
+}
+
