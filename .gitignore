@@ -11,7 +11,7 @@ Desktop.ini
 *~
 
 # dotfiles
-.chezmoi
+chezmoi/
 
 # Logs
 *.log
