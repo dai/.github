@@ -4,7 +4,7 @@ description: 高いデザイン品質で独創的かつ本番利用に耐える�
 license: Apache 2.0. Based on Anthropic's frontend-design skill. See NOTICE.md for attribution.
 ---
 
-このスキルは、汎用的な「AIっぽい」見た目を避け、独創的で本番品質のフロントエンドUIを作るための指針を提供する。実際に動くコードを実装し、美観の細部や創造的な選択に最大限こだわること。
+このスキルは、汎用的な「AIっぽい」見た目を避け、独創的で本番品質のフロントエンドUIを作るための指針を提供する。実際に動くコードを実装し、美観の細部や創造的な選択に最大限こだわること
 
 ## Design Direction
 
